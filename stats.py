@@ -8,3 +8,7 @@ def character_counter(book):
     for letter in set(book):
         counter[letter] = book.count(letter)
     return counter
+
+def sort_character_count(char_dict):
+    return char_dict["num"]
+    
